@@ -112,11 +112,55 @@ main #banner .at_button:hover {
     transition: .5s;
 }
 
-main #banner-selection .row div img {
+main #banner-selection .row .col img {
  width: 100%;
  border-radius: 20px;
 }
 
+main #banner-selection .row .at_active {
+    border: 3px solid #0070d1 ;
+    border-radius: 23px;
+    padding: 3px 3px;
+}
+
+main #banner-selection .row .col:not(.at_active):hover img {
+    transform: translateY(-10px);
+}
+
+main #hardware .at_button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #0070d1;
+    border: 2px solid #0070d1;
+}
+
+main #hardware .at_button:hover {
+    color: white;
+    box-shadow: 0px 0px 0px 2px white inset;
+    transition: .5s;
+}
+
+main #hardware .row .col img {
+ width: 100%;
+}
+
+main #hardware .row.at_hardware-selection .col {
+    opacity: .5;
+}
+
+main #hardware .row.at_hardware-selection .col:hover {
+    opacity: 1;
+}
+
+main #hardware .row.at_hardware-selection .col.at_active {
+    opacity: 1;
+    border-bottom: 3px solid #0070d1;
+}
+
+main #hardware .row.at_hardware-selection .col img {
+    padding: 20%;
+}
 
 /* End main */
 
