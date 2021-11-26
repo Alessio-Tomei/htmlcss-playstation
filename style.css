@@ -112,6 +112,11 @@ main #banner .at_button:hover {
     transition: .5s;
 }
 
+main #banner-selection .row div img {
+ width: 100%;
+ border-radius: 20px;
+}
+
 
 /* End main */
 
