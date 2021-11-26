@@ -1,0 +1,90 @@
+
+/* Start header */
+
+header {
+    background-color: black;
+}
+
+header > .container-fluid .d-flex a img{
+    width: 100px;
+}
+
+header > .navbar .container-fluid .navbar-brand img {
+    width: 50px;
+}
+
+header .navbar .at_dropdown-item {
+    text-decoration: none;
+    color: black;
+}
+
+header .navbar .at_dropdown-item img {
+    width: 60px;
+}
+
+header .navbar .at_dropdown-item:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .5);
+    color: black;
+}
+
+header .navbar .at_border-color-1 {
+    border-color: #c7c8c9 !important;
+}
+
+header .navbar .at_list-style-1 {
+    list-style: disc inside;
+    color: #0070d1;
+    font-size: .60rem;
+}
+
+header .at_link-1 {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+header .at_link-1:hover {
+    color: #0070d1 !important;
+}
+
+header .at_toogle i:last-of-type {
+    display: none;
+}
+
+header .at_toogle.show i:first-of-type {
+    display: none;
+}
+
+header .at_toogle.show i:last-of-type {
+    display: inline;
+}
+
+header > .navbar .container-fluid .collapse form button img {
+    width: 1.5rem;
+}
+
+header .at_button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #363636;
+    border: 2px solid #363636;
+}
+
+header .at_button:hover {
+    color: white;
+    opacity: .9;
+    box-shadow: 0px 0px 0px 2px white inset;
+    transition: .5s;
+}
+
+
+/* End header */
+
+
+
+
+main {
+    background-color: cadetblue;
+    height: 1700px;
+}
+
