@@ -5,11 +5,11 @@ header {
     background-color: black;
 }
 
-header > .container-fluid .d-flex a img{
+header > .container-xxl .d-flex a img{
     width: 100px;
 }
 
-header > .navbar .container-fluid .navbar-brand img {
+header > .navbar .container-xxl .navbar-brand img {
     width: 50px;
 }
 
@@ -58,7 +58,7 @@ header .at_toogle.show i:last-of-type {
     display: inline;
 }
 
-header > .navbar .container-fluid .collapse form button img {
+header > .navbar .container-xxl .collapse form button img {
     width: 1.5rem;
 }
 
@@ -77,14 +77,41 @@ header .at_button:hover {
     transition: .5s;
 }
 
+header #at_search {
+    transition: 0s;
+}
 
 /* End header */
 
-
-
+/* Start main */
 
 main {
-    background-color: cadetblue;
-    height: 1700px;
+    margin-top: 116px;
 }
+
+main #banner {
+    width: 100%;
+    min-height: 675px;
+    background-image: url(img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main #banner .at_button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #cd3d0f;
+    border: 2px solid #cd3d0f;
+}
+
+main #banner .at_button:hover {
+    color: white;
+    box-shadow: 0px 0px 0px 2px black inset;
+    transition: .5s;
+}
+
+
+/* End main */
 
