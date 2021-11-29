@@ -212,6 +212,28 @@ main #new-releases .row .col img {
     border-radius: 20px;
 }
 
+main #explore-ps4 .row:first-of-type p {
+    max-width: 500px;
+}
+
+main #explore-ps4 .row .col img {
+    width: 100%;
+}
+
+main #explore-ps4 .at_button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #0070d1;
+    border: 2px solid #0070d1;
+}
+
+main #explore-ps4 .at_button:hover {
+    color: white;
+    box-shadow: 0px 0px 0px 2px white inset;
+    transition: .5s;
+}
+
 
 /* End main */
 
