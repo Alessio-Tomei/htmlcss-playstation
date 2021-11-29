@@ -46,6 +46,10 @@ header .at_link-1:hover {
     color: #0070d1 !important;
 }
 
+header .at_link-1.show {
+    color: #0070d1 !important;
+}
+
 header .at_toogle i:last-of-type {
     display: none;
 }
@@ -112,18 +116,23 @@ main #banner .at_button:hover {
     transition: .5s;
 }
 
-main #banner-selection .row .col img {
+main #banner-selection .row .col div {
+    cursor: pointer;
+    transition: linear .25s;
+}
+
+main #banner-selection .row .col div img {
  width: 100%;
  border-radius: 20px;
 }
 
-main #banner-selection .row .at_active {
+main #banner-selection .row div.at_active {
     border: 3px solid #0070d1 ;
     border-radius: 23px;
     padding: 3px 3px;
 }
 
-main #banner-selection .row .col:not(.at_active):hover img {
+main #banner-selection .row .col:hover div {
     transform: translateY(-10px);
 }
 
@@ -142,7 +151,12 @@ main #hardware .at_button:hover {
 }
 
 main #hardware .row .col img {
- width: 100%;
+    width: 100%;
+}
+
+main #hardware .row.at_hardware-selection .col {
+    cursor: pointer;
+    transition: linear .5s;
 }
 
 main #hardware .row.at_hardware-selection .col {
@@ -161,6 +175,43 @@ main #hardware .row.at_hardware-selection .col.at_active {
 main #hardware .row.at_hardware-selection .col img {
     padding: 20%;
 }
+
+main #banner-2 {
+    width: 100%;
+    min-height: 675px;
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main #banner-2 .at_button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #cd3d0f;
+    border: 2px solid #cd3d0f;
+}
+
+main #banner-2 .at_button:hover {
+    color: white;
+    box-shadow: 0px 0px 0px 2px black inset;
+    transition: .5s;
+}
+
+main #new-releases {
+    background-color: #1f1f1f;
+}
+
+main #new-releases .row .col {
+    cursor: pointer;
+}
+
+main #new-releases .row .col img {
+    width: 100%;
+    border-radius: 20px;
+}
+
 
 /* End main */
 
