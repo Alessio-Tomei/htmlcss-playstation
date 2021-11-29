@@ -253,6 +253,10 @@ main #banner-3 .at_button:hover {
     transition: .5s;
 }
 
+main #new-promo .row .col img {
+    cursor: pointer;
+}
+
 
 /* End main */
 
