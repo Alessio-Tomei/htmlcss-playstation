@@ -275,6 +275,37 @@ main #banner-4 .at_button:hover {
     transition: .5s;
 }
 
-
 /* End main */
+
+/* Start footer */
+
+@media all and (min-width: 576px) {
+    footer #social-media .at_fix-width-center-sm {
+        width: 576px;
+        margin: 0 auto;
+    }
+}
+
+footer #footer-nav {
+    background-color: #00439c;
+}
+
+footer #footer-nav .row .col #fot-img-logo {
+    width: 100px;
+}
+
+footer #footer-nav .row .col #fot-img-globe {
+    width: 20px;
+}
+
+footer #footer-nav .row .col #fot-img-logo-2 {
+    width: 150px;
+}
+
+footer #footer-nav .row .col .at_list-style-none {
+    list-style: none;
+}
+
+
+/* End footer */
 
